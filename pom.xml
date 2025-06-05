@@ -24,4 +24,23 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-</project>
+  <build>
+  <plugins>
+  <!-- Plugin for creating executable JAR files -->
+  <plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-jar-plugin</artifactId>
+  <version>3.2.2</version>
+  <configuration>
+  <archive>
+<manifest>
+<mainClass>prg.prg8.App</mainClass><!--👈 Change to your actual
+main class -->
+</manifest>
+</archive>
+</configuration>
+</plugin>
+</plugins>
+</build>
+</project>  
+  </project>
