@@ -34,8 +34,7 @@
   <configuration>
   <archive>
   <manifest>
-  <mainClass>prg.prg8.App</mainClass><!--👈 Change to your actual
-main class -->
+  <mainClass>prg.prg8.App</mainClass>
   </manifest>
   </archive>
   </configuration>
