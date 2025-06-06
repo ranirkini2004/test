@@ -33,14 +33,13 @@
   <version>3.2.2</version>
   <configuration>
   <archive>
-<manifest>
-<mainClass>prg.prg8.App</mainClass><!--👈 Change to your actual
+  <manifest>
+  <mainClass>prg.prg8.App</mainClass><!--👈 Change to your actual
 main class -->
-</manifest>
-</archive>
-</configuration>
-</plugin>
-</plugins>
-</build>
-</project>  
-  </project>
+  </manifest>
+  </archive>
+  </configuration>
+  </plugin>
+  </plugins>
+  </build>
+  </project> 
